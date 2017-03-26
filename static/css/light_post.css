@@ -1,0 +1,355 @@
+img.article_thumbnail {
+	/*padding: 8px;*/
+	display:inline;
+	border: 1px #DDDDDD solid;
+	float:left;
+	margin:5px 15px 5px 0;
+}
+
+.article_entry {
+	font-size: 16px;
+	/*line-height: 1.6em;*/
+}
+
+.article_entry img1 {
+	padding: 10px;
+	border: 1px #CCC solid;
+	box-shadow: 0 1px 3px #9D9D9D;
+	-moz-box-shadow: 0 1px 3px #9D9D9D;
+	-webkit-box-shadow: 0 1px 3px #9D9D9D;
+}
+
+.main_content {
+	padding: 15px 35px 30px 35px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 3px;
+	margin-right: 3px;
+	position:relative;
+	overflow: hidden;
+	text-align: left;
+	background-color: white;
+	/*font-family: georgia, 'times new roman', times, serif;*/
+	font-size: 16px;
+	line-height: 1.9em;
+	color: rgb(51, 51, 51);
+	font-weight: normal;
+	border: 1px solid #ECECEC;
+
+
+/*	box-shadow: 0 1px 3px #9D9D9D;
+	-moz-box-shadow: 0 1px 3px #9D9D9D;
+	-webkit-box-shadow: 0 1px 3px #9D9D9D;*/
+
+	/*
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	*/
+}
+
+.main_content li {
+	line-height: 1.9em;
+}
+
+
+.main_content h1 {
+	margin-bottom: 30px;
+	font-size: 30px !important;
+	text-align: center;
+}
+
+.main_content h2 {
+	font-size: 27px;
+}
+
+.main_content h3 {
+	font-size: 22px;
+}
+
+
+.main_content h2,
+.main_content h3,
+.main_content h4,
+.main_content h5 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.main_content img {
+	max-width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.main_content p {
+	margin-bottom: 1.5em;
+}
+
+.main_content a {
+	color: #de6a73;
+	text-decoration: underline;
+}
+.main_content a.btn {
+	color: #FFF;
+	text-decoration: none;
+}
+.main_content .btn {
+	border-radius: 4px;
+	text-shadow: none;
+	background-image: none;
+	border: none;
+}
+
+#article_content {
+	padding-bottom: 30px;
+	/*border-bottom: 1px #CCCCCC solid;*/
+	margin-bottom: 30px;
+}
+
+.article_include {
+	clear: both;
+}
+
+.article_include img {
+	clear: both;
+}
+
+.article_index,
+.article_include {
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #EDEDED;
+}
+
+.article_index h2,
+.article_include h3 {
+	font-size: 24px;
+	line-height: 1.7em !important;
+}
+.article_index h2 a,
+.article_include h3 a {
+	color:#444;
+	text-decoration: none;
+}
+
+.article_include,
+.article_index {
+	font-size: 17px;
+	line-height: 1.5em;
+}
+
+.article_info {
+	font-style:italic;
+	margin-top: 8px;
+	margin-bottom: 10px;
+	color: #999;
+}
+
+/*.article_include h3 {
+	line-height: 1.4em !important;
+	font-weight:bold;
+}
+
+
+
+/************************ begin sidebar ***************************/
+.sidebar {
+	margin: 3px;
+}
+
+.sidebar_section {
+	 background-color:#FFF;
+	/*background-color: #F6F6F6;*/
+	/* background-color: #F5F5F1; */
+	margin: 10px auto;
+	margin-right: 3px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px solid #ECECEC;
+
+	/*border: 1px solid #D5D5D5;*/
+/*	box-shadow: 0 1px 3px #D1D1D1;
+	-moz-box-shadow: 0 1px 3px #D1D1D1;
+	-webkit-box-shadow: 0 1px 3px #D1D1D1;*/
+
+
+
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+
+}
+
+.sidebar_section a {
+	text-decoration:none;
+	/* color: #d1008b; */ /* redish */
+	/* color: #45A8D6; */ /* blueish */
+	color: #777;
+}
+
+.sidebar_section a:hover {
+	/*text-decoration:underline;*/
+	/* color: #d1008b; */ /* redish */
+	/* color: #45A8D6; */ /* blueish */
+	color: #000;
+}
+
+.sidebar_section h3 {
+	margin-top: 0px;
+	line-height: 1.3em;
+	font-size: 18px;
+	color: #d24d57;
+	padding-left: 5px;
+}
+
+.sidebar_section h3 a {
+	/* color: #FFF; */
+	color: #5B7EBD;
+}
+
+.sidebar_section ads {
+	margin: 0 auto;
+}
+
+.sidebar_section hr {
+	margin-top: 5px;
+	margin-top: 5px;
+}
+
+.sidebar_section ul {
+	margin-left: 2px;
+	margin-top: -7px;
+	margin-bottom: -7px;
+	padding-left: 5px;
+	line-height: 1.5em;
+}
+
+.sidebar_section li {
+	border-bottom: 1px solid #E4E4E4;
+	list-style: none;
+	padding: 5px 3px;
+	font-size: 14px;
+}
+
+.sidebar_section li:last-child {
+	border-bottom: none;
+	padding-bottom: 8px;
+}
+
+
+.sidebar_section p, li {
+/*	font-size: 0.95em;
+	line-height: 1.5em;*/
+}
+
+.sidebar_section .btn-social {
+	width: 40px;
+	height: 40px;
+	border: 2px solid #666;
+	font-size: 19px;
+	line-height: 38px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: #444;
+	color: #FFF;
+}
+
+.sidebar_section .btn-social:hover {
+	background-color: #FFF;
+	border: 2px solid #CCC;
+}
+
+.sidebar_section .btn-outline {
+	margin-top: 0px;
+}
+
+.sidebar_section img {
+	max-width: 100%;
+	height: auto;
+}
+
+/************************ end sidebar ***************************/
+
+
+/************************ begin pagination styles ************************/
+div.pagination_wrapper {
+	clear:both;
+	/*width: 375px;*/
+	text-align:center;
+	padding: 3px;
+	margin: 3px auto;
+}
+div.pagination {
+	padding: 3px;
+	margin: 3px;
+	font-size:10px;
+}
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #AAAADD;
+	text-decoration: none; /* no underline */
+	color: #666;
+}
+div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #000099;
+	color: #000;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #666;
+	font-weight: 600
+	background-color:#666;
+	color: #FFF;
+}
+div.pagination span.disabled {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #EEE;
+	color: #DDD;
+}
+/************************ end pagination styles ************************/
+
+
+/************************ begin small screen ***************************/
+@media (max-width: 480px) {
+	.main_content {
+		padding: 0px 0px 2px 0px;
+		margin-top: 0px;
+		margin-bottom: 10px;
+		margin-left: 0;
+		margin-right: 0;
+		position:relative;
+		overflow: hidden;
+		text-align: left;
+		background-color: white;
+		box-shadow: none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		border: none;
+	}
+	.sidebar {
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	.sidebar_section {
+		background: #E7E7E7;
+		box-shadow: none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+	}
+}
+
+/************************ end small screen ***************************/
