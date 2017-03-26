@@ -207,9 +207,9 @@ h2.link-section-title {
 	border-bottom: 2px solid #fda0a7;
 	padding-bottom: 10px;
 }
-.link {
+div.link {
 	font-size: 16px;
-	display: inline;
+	display: inline-block;
 	margin-right: 25px;
 	margin-top: 8px;
 	margin-bottom: 8px;
