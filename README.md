@@ -1,7 +1,7 @@
 ## 热门网站
 <table>
     <tr>
-        <td>[Google](https://google.com)</td>
-        <td>[Youtube](https://youtube.com)</td>
+        <td><a href="https://google.com">Google</a></td>
+        <td><a href="https://youtube.com">Youtube</a></td>
     </tr>
 </table>
